@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 cd /home/cloud_user/.ssh
 echo "-----BEGIN RSA PRIVATE KEY-----
 MIIEpQIBAAKCAQEAiDLyruNpRQx56RwhwB8hCIk9EFOYdncO3S+VcQRAhvoYsSJl/8h5WA9gSIAJ
