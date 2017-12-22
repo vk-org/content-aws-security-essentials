@@ -1,3 +1,4 @@
+#! /bin/bash
 cd /home/cloud_user/.ssh
 echo "-----BEGIN RSA PRIVATE KEY-----
 MIIEpQIBAAKCAQEAiDLyruNpRQx56RwhwB8hCIk9EFOYdncO3S+VcQRAhvoYsSJl/8h5WA9gSIAJ
@@ -23,8 +24,7 @@ jr4DoXAhwVR2ijAuqiZdsbUSHDbT75MZZOnOrrrMtifm3TlF+5q/2SH0zJzI1q3dpxYf8dWfy7LD
 Q3KiG62m9qHrM8G2X939+WI3Hc+dpwvG8yvs4yF1bo3YS+I6j2sn+fg/ViHlxi0NIbtWm9w=
 -----END RSA PRIVATE KEY-----" >> myPrivateSSHKey.pem
 
-echo -e "\n\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCGoMV5v0vLlJR6omjbQGiW0VlFpxmmlJfHwy09jiD6ZoGX44faZ6U/+SBNwmLC0D9vTBjIhYBtGrEqD+15EsarvM1iggf1g4z
-ZlrMnXl7QmPigJ9f09F+0CzNbfGLjLg0E5TeLvYLt1VlzXx0AyPFVVyBKwqv4zcLzAwQxXj06+270LzbHoz8TsybpXbzrkknw+n8RalB2+zAmWDcD7l9kQh4wW7mpAUM3dA+UiS
-Vh8jaJ5vgmpFpXJnQ6xwgwDQ2PexOgPZBQm53OA7gPvCSFYATTM9QwKTHpzKRcYCZ1TY6IwNbfrzJpGBMmA+26aVcBLkLTIfjH/GEnfUC0ilPJ myEC2KeyPair" >> authorized_hosts 
+echo -e "\n\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCGoMV5v0vLlJR6omjbQGiW0VlFpxmmlJfHwy09jiD6ZoGX44faZ6U/+SBNwmLC0D9vTBjIhYBtGrEqD+15EsarvM1iggf1g4zZlrMnXl7QmPigJ9f09F+0CzNbfGLjLg0E5TeLvYLt1VlzXx0AyPFVVyBKwqv4zcLzAwQxXj06+270LzbHoz8TsybpXbzrkknw+n8RalB2+zAmWDcD7l9kQh4wW7mpAUM3dA+UiS
+Vh8jaJ5vgmpFpXJnQ6xwgwDQ2PexOgPZBQm53OA7gPvCSFYATTM9QwKTHpzKRcYCZ1TY6IwNbfrzJpGBMmA+26aVcBLkLTIfjH/GEnfUC0ilPJ myUnusedKeyPair" >> authorized_hosts 
 
 
